@@ -1,0 +1,23 @@
+.box {
+    width: 100px;
+    height:100px;
+    background-color: red;
+    animation:2s ids infinite;
+    animation-duration: 2s;
+}
+
+@keyframes ids {
+
+    50%{
+        margin-left: 400px;
+        transform: rotate(40deg);
+        background-color: chocolate;
+    }
+
+    100%{
+        margin-right: 400px;
+        transform: rotate(80deg);
+        background-color: cornsilk;
+    }
+    
+}
